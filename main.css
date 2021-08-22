@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Ubuntu&display=swap');
+body{
+    background: url(images/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg) rgb(219, 224, 228) no-repeat  center  fixed ; 
+    
+    background-size: cover;
+    height: 100%;
+    line-height: 1.2em;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-align: center;
+    
+}
+
+.about{
+    font-size:1.3rem;
+    line-height: 2rem;
+    font-weight:500;
+    font-family: 'Ubuntu', sans-serif;
+    width:80%;
+    margin: 0 auto;
+}
+.title{
+    color:teal;
+    font-weight: 800;
+    font-style: oblique;
+}
+.container,.container-2,.container-3{
+    width:100%;
+   
+   }
+.container h1{
+    margin:2em auto;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.subjects{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sub-text{
+    margin:3rem 0;
+    font-size:1.5em;
+}
+#no-of-sub{
+    padding:8px;
+    background-color: rgba(182, 178, 178, 0.918);
+    font-weight: 900;
+    font-size: 1em;
+    text-align: center;
+    width:20%;
+    border:1px solid black;
+}
+.sub-text{
+    font-weight: 700;
+    
+}
+.btn-next{
+    padding:10px;
+    width:120px;
+    font-size: 1rem;
+    border-radius: 40px;
+    border:2px solid black;
+    text-align: center;
+    margin:3em;
+    background-color: rgb(4, 155, 4);
+    font-weight: 700;
+}
+
+
+.form-list{
+    background-color: teal;
+    padding:1.5em;
+    width:75%;
+    margin: 0 auto;
+    font-weight: 800;
+}
+
+.notAttainable{
+    color:red;
+}
+
+.subName{
+    padding:0.8em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width:45%;
+    border-radius: 2px;
+    border:1px solid black;
+    text-align: center;
+    
+}
+.cie{
+    padding:6px;
+    text-align: center;
+    border-radius: 3px;
+    border:1px solid black;
+    width:60px;
+    
+}
+.list-text{
+
+    font-weight: 800;
+    font-size: 1.5em;
+    margin:1.5em 0;
+    
+}
+.calBtn{
+    padding:10px;
+    width:120px;
+    font-size: 1rem;
+    border-radius: 40px;
+    border:2px solid black;
+    text-align: center;
+    background-color: rgb(4, 155, 4);
+    font-weight: 700;
+    margin: 1.5em 0;
+}
+ input[type=button]:hover{
+     background-color: rgb(12, 185, 12);
+     border:2px solid gold;
+     width:150px;
+     cursor: pointer;
+ }
+ 
+.result{
+    display: grid;
+    grid-template-columns: repeat(3,33%); 
+  
+   
+}
+.gradeChart{
+    padding: 1.3em;
+    background-color:rgb(146, 177, 185);
+    margin: 2em auto;
+    font-weight: 800;
+    width: 40%;
+
+}
+@media(max-width:1024px){
+    .result{
+        grid-template-columns: repeat(2,50%);
+    }
+    
+}
+@media(max-width:768px){
+    body{
+         font-size: 0.8rem; 
+        line-height: 1.5rem;
+    
+    }
+    .about{
+        font-size: 0.8rem;
+        line-height:1.3rem
+    }
+    .form-list{
+        width:100%;
+        box-sizing: border-box;
+    }
+
+    .result{
+        grid-template-columns: 100%;
+       
+    }
+  
+}
+
